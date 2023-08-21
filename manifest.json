@@ -1,0 +1,30 @@
+{
+  "name": "Mass Unfollow on Twitch",
+  "description": "A Chrome extension to Mass Unfollow on Twitch.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Gabriel de Rezende Gonçalves",
+    "email": "contato@gabireze.com.br",
+    "url": "https://gabireze.com.br/"
+  },
+  "permissions": ["scripting"],
+  "host_permissions": ["https://*.twitch.tv/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    },
+    "default_title": "Mass Unfollow on Twitch",
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 3
+}
