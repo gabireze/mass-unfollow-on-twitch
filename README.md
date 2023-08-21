@@ -4,7 +4,7 @@ Welcome to the Mass Unfollow on Twitch Extension! This Chrome extension simplifi
 
 ## Installation
 
-You can install the extension from the Chrome Web Store by following this link: Mass Unfollow on Twitch - Chrome Web Store
+You can install the extension from the Chrome Web Store by following this link: [Mass Unfollow on Twitch - Chrome Web Store](https://chrome.google.com/webstore/detail/mass-unfollow-on-twitch/mgmagaekfiflfamjkogchapgmhfbkmnh)
 
 Alternatively, you can also install the extension manually by following these steps:
 
