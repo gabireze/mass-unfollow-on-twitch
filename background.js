@@ -46,7 +46,7 @@ const runUnfollowScript = async () => {
   };
 
   const unfollow = async () => {
-    const unfollowButtons = document.getElementsByClassName("ScStatusAlertLabel-sc-1dmtv72-1 hEETeX");
+    const unfollowButtons = document.getElementsByClassName("ScStatusAlertLabel-sc-1dmtv72-1 hMAkhy");
 
     const confirmText = "Yes, unfollow";
 
