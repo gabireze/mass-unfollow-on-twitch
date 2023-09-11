@@ -46,23 +46,16 @@ const runUnfollowScript = async () => {
   };
 
   const unfollow = async () => {
-    const unfollowButtons = document.getElementsByClassName("ScStatusAlertLabel-sc-1dmtv72-1 hMAkhy");
-
-    const confirmText = "Yes, unfollow";
+    const unfollowButtons = document.querySelectorAll('[data-test-selector="unfollow-button"]');
 
     for (const button of unfollowButtons) {
       button.click();
       console.log("Clicked the unfollow button.");
 
-      const confirmDivs = Array.from(document.querySelectorAll("div"));
+      const modalUnfollowButton = document.querySelectorAll('[data-a-target="modal-unfollow-button"]');
 
-      const confirmElement = confirmDivs.find((el) => el.textContent === confirmText);
-
-      if (confirmElement) {
-        const confirmButton = confirmElement.children[0];
-        confirmButton.click();
-        console.log("Confirmed the unfollow action.");
-      }
+      modalUnfollowButton[0].click();
+      console.log("Confirmed the unfollow action.");
     }
 
     console.log("Finished unfollowing channels. Script ended.");

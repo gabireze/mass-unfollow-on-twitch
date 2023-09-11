@@ -18,11 +18,10 @@ Alternatively, you can also install the extension manually by following these st
 To use the extension:
 
 1. Make sure you are logged in to your Twitch account.
-2. Make sure your twitch language is in English.
-3. Click the extension icon in the Chrome toolbar.
-4. Click the "Start" button.
-5. Follow the prompts to initiate the mass unfollow process.
-6. Keep the tab open until the process is complete. Closing the tab will interrupt the process.
+2. Click the extension icon in the Chrome toolbar.
+3. Click the "Start" button.
+4. Follow the prompts to initiate the mass unfollow process.
+5. Keep the tab open until the process is complete. Closing the tab will interrupt the process.
 
 
 ## Important Note
