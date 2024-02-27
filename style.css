@@ -1,0 +1,215 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.centered-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.my-component {
+  z-index: 1001;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 15px;
+  border-radius: 10px;
+  width: 350px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #333;
+  min-height: 450px;
+  max-height: calc(80%);
+  overflow-y: auto;
+}
+
+.my-component::-webkit-scrollbar {
+  width: 7px;
+  background: #18181b; /* Cor de fundo da barra */
+}
+
+.my-component::-webkit-scrollbar-thumb {
+  background: hsla(0, 0%, 100%, 0.5); /* Cor da barra de rolagem */
+  border-radius: 7px;
+}
+
+.my-component h2 {
+  color: white;
+  text-align: center;
+  font-size: 2.25rem;
+  margin: 0;
+}
+
+.my-component #info-text,
+#explanation-text {
+  font-size: 1.1em;
+  text-align: center;
+  color: #ddd;
+}
+
+.my-component button {
+  display: block;
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #9147ff;
+  color: white;
+}
+
+.my-component button:hover {
+  background-color: #772ce8;
+}
+
+.my-component input[type="text"] {
+  display: block;
+
+  font-family: inherit;
+  background-clip: padding-box;
+  line-height: 1.5;
+  transition: border 100ms ease-in, background-color 100ms ease-in;
+  border-style: solid;
+  border-width: 0px;
+  border-color: transparent;
+  box-shadow: inset 0 0 0 1 hsla(240, 8%, 88%, 0.4);
+  color: #efeff1;
+  background-color: #18181b;
+  display: block;
+  width: calc(100% - 20px);
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.my-component select {
+  font-family: inherit;
+  background-clip: padding-box;
+  line-height: 1.5;
+  transition: border 100ms ease-in, background-color 100ms ease-in;
+  border-style: solid;
+  border-width: 0px;
+  border-color: transparent;
+  box-shadow: inset 0 0 0 1 hsla(240, 8%, 88%, 0.4);
+  color: #efeff1;
+  background-color: #18181b;
+  width: calc(100% - 20px);
+  padding: 12px;
+  min-height: 6rem;
+  max-height: 100px;
+  border-radius: 4px;
+  overflow-y: auto;
+}
+
+.my-component select::-webkit-scrollbar {
+  width: 7px;
+  background: #18181b;
+  border-radius: 7px;
+  opacity: 0;
+  position: absolute;
+  right: 2px;
+  -webkit-transition: opacity 0.2s linear;
+  transition: opacity 0.2s linear;
+}
+
+.my-component select:hover::-webkit-scrollbar {
+  opacity: 1;
+}
+
+.my-component select::-webkit-scrollbar-track {
+  background-clip: padding-box;
+}
+
+.my-component select::-webkit-scrollbar-thumb {
+  background: hsla(0, 0%, 100%, 0.5);
+  border-radius: 7px;
+  min-height: 10px;
+}
+
+.my-component input[type="text"]:focus,
+.my-component select:focus {
+  outline: none;
+  border-color: #451093;
+  box-shadow: 0 0 0 2px rgba(0, 86, 179, 0.25);
+}
+
+.my-component #unfollow-button {
+  display: block;
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+  background-color: #451093;
+  color: white;
+}
+
+.my-component #unfollow-button:hover {
+  background-color: #35076a;
+}
+
+.loader {
+  border: 5px solid #9147ff;
+  border-top: 5px solid #35076a;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loader {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -25px;
+  margin-left: -25px;
+  z-index: 1001;
+}
+
+.my-component button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.my-component select option:hover {
+  background-color: #35353b;
+}
+
+.my-component select option:active {
+  background-color: #35353b;
+}
+
+.my-component select option:checked {
+  background-color: #9147ff;
+}
+
+.my-component select:focus option:checked {
+  background-color: #9147ff;
+}
+
+.my-component select:focus option:hover {
+  background-color: #9147ff;
+}
