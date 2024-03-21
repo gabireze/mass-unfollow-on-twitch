@@ -119,6 +119,8 @@ const startUnfollowProcess = async () => {
       button.click();
       console.log(`Clicked the unfollow button for ${channelName}.`);
 
+      await wait(1);
+
       const modalUnfollowButton = document.querySelector(
         '[data-a-target="modal-unfollow-button"]'
       );
