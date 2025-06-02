@@ -37,4 +37,7 @@ Contributions are welcome! If you have any suggestions, improvements, or bug fix
 
 This project is licensed under the MIT License. See the [LICENSE](https://opensource.org/license/mit/) file for more information.
 
+## GitAds Sponsored
+[![Sponsored by GitAds](https://gitads.dev/v1/ad-serve?source=gabireze/mass-unfollow-on-twitch@github)](https://gitads.dev/v1/ad-track?source=gabireze/mass-unfollow-on-twitch@github)
+
 <!-- GitAds-Verify: T72TZCPT7OH26NSG4MKXELUHLOSW9R1O -->
