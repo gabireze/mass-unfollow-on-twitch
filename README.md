@@ -2,6 +2,9 @@
 
 Welcome to the Mass Unfollow on Twitch Extension! This Chrome extension simplifies the process of unfollowing multiple channels on Twitch with just a few clicks.
 
+## GitAds Sponsored
+[![Sponsored by GitAds](https://gitads.dev/v1/ad-serve?source=gabireze/mass-unfollow-on-twitch@github)](https://gitads.dev/v1/ad-track?source=gabireze/mass-unfollow-on-twitch@github)
+
 ## Installation
 
 You can install the extension from the Chrome Web Store by following this link: [Mass Unfollow on Twitch - Chrome Web Store](https://chrome.google.com/webstore/detail/mass-unfollow-on-twitch/mgmagaekfiflfamjkogchapgmhfbkmnh)
@@ -36,8 +39,5 @@ Contributions are welcome! If you have any suggestions, improvements, or bug fix
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](https://opensource.org/license/mit/) file for more information.
-
-## GitAds Sponsored
-[![Sponsored by GitAds](https://gitads.dev/v1/ad-serve?source=gabireze/mass-unfollow-on-twitch@github)](https://gitads.dev/v1/ad-track?source=gabireze/mass-unfollow-on-twitch@github)
 
 <!-- GitAds-Verify: T72TZCPT7OH26NSG4MKXELUHLOSW9R1O -->
