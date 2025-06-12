@@ -1,43 +1,67 @@
 # Mass Unfollow on Twitch
 
-Welcome to the Mass Unfollow on Twitch Extension! This Chrome extension simplifies the process of unfollowing multiple channels on Twitch with just a few clicks.
+Easily unfollow multiple Twitch channels in bulk with this Chrome extension. Save time and manage your followed channels with just a few clicks.
 
 ## GitAds Sponsored
 [![Sponsored by GitAds](https://gitads.dev/v1/ad-serve?source=gabireze/mass-unfollow-on-twitch@github)](https://gitads.dev/v1/ad-track?source=gabireze/mass-unfollow-on-twitch@github)
 
-## Installation
+---
 
-You can install the extension from the Chrome Web Store by following this link: [Mass Unfollow on Twitch - Chrome Web Store](https://chrome.google.com/webstore/detail/mass-unfollow-on-twitch/mgmagaekfiflfamjkogchapgmhfbkmnh)
+## 🚀 Features
 
-Alternatively, you can also install the extension manually by following these steps:
+- **Bulk Unfollow:** Unfollow all or selected channels at once.
+- **Exception List:** Add channels you want to keep following.
+- **Multi-language Support:** Interface adapts to your browser language.
+- **Simple UI:** Clean, user-friendly interface with progress feedback.
+- **Safe:** No passwords or sensitive data required.
 
-1. Clone the repository or download the source code.
-2. Open Google Chrome and navigate to `chrome://extensions`.
-3. Enable the "Developer mode" toggle switch on the top right corner.
-4. Click on the "Load unpacked" button and select the downloaded extension folder.
+---
 
-## Usage
+## 🛠️ Installation
 
-To use the extension:
+### From Chrome Web Store
 
-1. Make sure you are logged in to your Twitch account.
+[Mass Unfollow on Twitch - Chrome Web Store](https://chrome.google.com/webstore/detail/mass-unfollow-on-twitch/mgmagaekfiflfamjkogchapgmhfbkmnh)
+
+### Manual Installation
+
+1. Clone this repository or [download the source code](https://github.com/gabireze/mass-unfollow-on-twitch).
+2. Open Google Chrome and go to `chrome://extensions`.
+3. Enable **Developer mode** (top right corner).
+4. Click **Load unpacked** and select the extension folder.
+
+---
+
+## 💡 Usage
+
+1. Log in to your Twitch account.
 2. Click the extension icon in the Chrome toolbar.
-3. Click the "Start" button.
-4. Follow the prompts to initiate the mass unfollow process.
-5. Keep the tab open until the process is complete. Closing the tab will interrupt the process.
+3. The extension will open your following page and load the interface.
+4. Click **Analyze** to list all followed channels.
+5. (Optional) Add channels to the exception list if you want to keep following them.
+6. Click **Start Mass Unfollow** to begin.
+7. Keep the tab open until the process completes.
 
+> **Note:** The process may take a while if you follow many channels. Do not close the tab until finished.
 
-## Important Note
+---
 
-- The extension may take some time to unfollow all the channels, especially if you have a large number of followed channels. Please be patient and avoid closing the tab until the process is finished.
-- You can monitor the progress of the process in the browser console.
+## ⚠️ Important Notes
 
-## Contributing
+- The extension works only on the Twitch following page.
+- Progress and errors are shown in the interface and browser console.
+- No Twitch credentials are stored or transmitted.
 
-Contributions are welcome! If you have any suggestions, improvements, or bug fixes, feel free to open an issue or submit a pull request.
+---
 
-## License
+## 🤝 Contributing
 
-This project is licensed under the MIT License. See the [LICENSE](https://opensource.org/license/mit/) file for more information.
+Contributions, suggestions, and bug reports are welcome! Please open an issue or submit a pull request.
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
 
 <!-- GitAds-Verify: T72TZCPT7OH26NSG4MKXELUHLOSW9R1O -->

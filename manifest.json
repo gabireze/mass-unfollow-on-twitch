@@ -1,7 +1,7 @@
 {
   "name": "Mass Unfollow on Twitch",
   "description": "A Chrome extension to Mass Unfollow on Twitch.",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "author": {
     "name": "Gabriel de Rezende Gonçalves",
     "email": "contato@gabireze.com.br",
