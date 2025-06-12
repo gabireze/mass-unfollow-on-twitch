@@ -1,3 +1,4 @@
+// Listen for the extension icon click
 chrome.action.onClicked.addListener(async function () {
   await chrome.tabs.create(
     { url: "https://www.twitch.tv/directory/following/channels" },
@@ -23,6 +24,7 @@ chrome.action.onClicked.addListener(async function () {
   );
 });
 
+// Function to inject the main script into the page
 async function injectScript() {
   const script = document.createElement("script");
   script.src = chrome.runtime.getURL("script.js");
